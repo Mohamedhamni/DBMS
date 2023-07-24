@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `uv6`.`Employ_ID` AS `Employ_ID`,`uv6`.`Name` AS `Name`,`uv6`.`Manager` AS `Manager`,`uv6`.`Item_ID` AS `Item_ID` from `jewelry`.`uv6`
+md5=54a03aad65c0dd1c99b8e9d3d2a49c71
+updatable=0
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2021-06-02 06:54:36
+create-version=2
+source=select Employ_ID,Name,Manager,Item_ID from uv6
+client_cs_name=cp850
+connection_cl_name=cp850_general_ci
+view_body_utf8=select `uv6`.`Employ_ID` AS `Employ_ID`,`uv6`.`Name` AS `Name`,`uv6`.`Manager` AS `Manager`,`uv6`.`Item_ID` AS `Item_ID` from `jewelry`.`uv6`
+mariadb-version=100508

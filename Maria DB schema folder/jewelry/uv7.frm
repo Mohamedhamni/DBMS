@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `jewelry`.`sales_details`.`Item_ID` AS `Item_ID` from `jewelry`.`sales_details`
+md5=6dd5a3acd0e175ce5bb968845c6ecdaa
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2021-06-02 18:33:56
+create-version=2
+source=select Item_ID from sales_details
+client_cs_name=cp850
+connection_cl_name=cp850_general_ci
+view_body_utf8=select `jewelry`.`sales_details`.`Item_ID` AS `Item_ID` from `jewelry`.`sales_details`
+mariadb-version=100508

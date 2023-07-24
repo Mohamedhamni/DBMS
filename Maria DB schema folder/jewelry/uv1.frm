@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `jewelry`.`sales_details`.`Item_ID` AS `Item_ID`,`jewelry`.`sales_details`.`Material_type` AS `Material_type`,`jewelry`.`sales_details`.`Catoegory` AS `Catoegory` from `jewelry`.`sales_details`
+md5=86e307d61b13d41f7980e50ae8629a5e
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2021-06-02 06:28:40
+create-version=2
+source=select Item_ID,Material_type,Catoegory from SALES_DETAILS
+client_cs_name=cp850
+connection_cl_name=cp850_general_ci
+view_body_utf8=select `jewelry`.`sales_details`.`Item_ID` AS `Item_ID`,`jewelry`.`sales_details`.`Material_type` AS `Material_type`,`jewelry`.`sales_details`.`Catoegory` AS `Catoegory` from `jewelry`.`sales_details`
+mariadb-version=100508

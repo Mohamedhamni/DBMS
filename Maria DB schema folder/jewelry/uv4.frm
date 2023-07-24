@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `jewelry`.`sales_representaion`.`Employ_ID` AS `Employ_ID`,`jewelry`.`sales_representaion`.`Name` AS `Name`,`jewelry`.`sales_representaion`.`Item_ID` AS `Item_ID`,`jewelry`.`sales_representaion`.`Manager` AS `Manager` from `jewelry`.`sales_representaion`
+md5=cd01692b39b17e3fc792bd93690458c5
+updatable=1
+algorithm=0
+definer_user=root
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2021-06-02 06:10:58
+create-version=2
+source=select Employ_ID,Name,Item_ID,Manager from SALES_REPRESENTAION
+client_cs_name=cp850
+connection_cl_name=cp850_general_ci
+view_body_utf8=select `jewelry`.`sales_representaion`.`Employ_ID` AS `Employ_ID`,`jewelry`.`sales_representaion`.`Name` AS `Name`,`jewelry`.`sales_representaion`.`Item_ID` AS `Item_ID`,`jewelry`.`sales_representaion`.`Manager` AS `Manager` from `jewelry`.`sales_representaion`
+mariadb-version=100508
